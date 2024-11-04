@@ -50,7 +50,7 @@ def music():
 
 
 def pictchange():
-    global pictures, pictcount
+    global pictcount
     if pictcount == 12:
         canvas.create_image(0, 0,
                             image=pictures[0], anchor='nw')
